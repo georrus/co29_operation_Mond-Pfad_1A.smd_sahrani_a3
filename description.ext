@@ -97,5 +97,15 @@ class Params
 		default = 90;
 	};
 };
+class CfgMusic
+{
+	tracks[]={};
+
+	class USoldat
+	{
+		name = "";
+		sound[] = {"USoldat.ogg", db+0, 1.0};
+	}
+	};
 
 

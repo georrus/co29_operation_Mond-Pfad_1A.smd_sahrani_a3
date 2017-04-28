@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=370;
+		nextID=371;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=20;
+		nextID=30;
 	};
 	class Camera
 	{
@@ -191,6 +191,25 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnButton";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=0;
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnTemplates";
 			expression="true";
 			class Value
@@ -236,25 +255,6 @@ class CustomAttributes
 							};
 						};
 					};
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnButton";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"SCALAR"
-						};
-					};
-					value=0;
 				};
 			};
 		};
@@ -311,7 +311,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=50;
+		items=51;
 		class Item0
 		{
 			dataType="Layer";
@@ -2911,6 +2911,22 @@ class Mission
 			colorName="ColorRed";
 			id=369;
 			atlOffset=-30.923199;
+		};
+		class Item50
+		{
+			dataType="Trigger";
+			position[]={7454.8721,44.030243,15625.581};
+			angle=4.2082157;
+			class Attributes
+			{
+				name="Usoldat";
+				onActivation="playmusic ""Usoldat"";";
+				sizeA=230;
+				activationBy="WEST";
+			};
+			id=370;
+			type="EmptyDetector";
+			atlOffset=-3.8146973e-006;
 		};
 	};
 	class Connections

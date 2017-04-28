@@ -48,5 +48,5 @@ tSF_MissionCondition_DefaultCheckTimer 			= 15;
  */
 
 // Код условия может быть строкой или кодом в { }
-MissionCondition1 = [ "WIN", [ trfinish, "east", "", "< 3"] call dzn_fnc_ccUnits, "территория зачищена пво устранено", 20 ];
+MissionCondition1 = [ "WIN", [ trfinish, 'east', '', '< 3'] call dzn_fnc_ccUnits, "территория зачищена пво устранено", 20 ];
 MissionCondition2 = [ "WIPED", { {alive _x} count (call BIS_fnc_listPlayers) < 1 }, "Все мертвы", 30 ];
