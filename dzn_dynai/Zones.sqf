@@ -18,14 +18,14 @@
             ]
         ]
         ,[
-            4, /* Groups quantity */
+            3, /* Groups quantity */
             /* Units */
             [
                 ["O_Soldier_F", ["indoors"], "kit_germ_oppos_random"]
             ]
         ]
         ,[
-            4, /* Groups quantity */
+            3, /* Groups quantity */
             /* Units */
             [
                 ["O_Soldier_F", [], "kit_germ_oppos_random"]
@@ -58,15 +58,6 @@
             [
                 ["O_Soldier_F", [], "kit_germ_oppos_random"]
                 ,["O_Soldier_F", [], "kit_germ_oppos_random"]
-                ,["O_Soldier_F", [], "kit_germ_oppos_random"]
-            ]
-        ]
-        ,[
-            3, /* Groups quantity */
-            /* Units */
-            [
-                ["O_Soldier_F", [], "kit_germ_oppos_random"]
-                ,["O_Soldier_F", [], "kit_germ_oppos_random"]
             ]
         ]
     ],
@@ -90,7 +81,7 @@
             ]
         ]
         ,[
-            2, /* Groups quantity */
+            1, /* Groups quantity */
             /* Units */
             [
                 ["O_Soldier_F", [], "kit_germ_oppos_random"]
@@ -99,7 +90,7 @@
             ]
         ]
         ,[
-            3, /* Groups quantity */
+            1, /* Groups quantity */
             /* Units */
             [
                 ["O_Soldier_F", [], "kit_germ_oppos_random"]
@@ -124,10 +115,10 @@
             ]
         ]
         ,[
-            3, /* Groups quantity */
+            1, /* Groups quantity */
             /* Units */
             [
-                ["O_Soldier_F", [], "kit_germ_oppos_random"]
+                ["O_Soldier_F", ["indoors"], "kit_germ_oppos_random"]
             ]
         ]
     ],

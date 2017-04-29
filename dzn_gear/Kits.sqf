@@ -104,7 +104,7 @@ kit_bundes_ar_aqua = [
 ];
 
 
-// игроки армия Бундесвера
+// игроки армия Егеря
 
 kit_bundes_sl = [
 	["<EQUIPEMENT >>  ","CUP_U_B_GER_Flecktarn_2","TRYK_V_PlateCarrier_JSDF","tf_rt1523g_bwmod","CUP_H_Ger_Boonie_Flecktarn",""],
