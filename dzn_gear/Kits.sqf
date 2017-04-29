@@ -157,6 +157,30 @@ kit_bundes_at = [
 	["<BACKPACK ITEMS >> ",[["ACE_EntrenchingTool",1],["ACE_IR_Strobe_Item",1],["30Rnd_9x21_Mag",2],["hlc_30rnd_556x45_t_HK33",4],["CUP_100Rnd_TE1_Red_Tracer_556x45_BetaCMag",1]]]
 ];
 
+// товарищ Гюнтер бот
+
+kit_Gunter_Voigt = [
+	["<EQUIPEMENT >>  ","TRYK_SUITS_BLK_F","","","H_Beret_blk","G_Spectacles"],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ACE_Altimeter","tf_anprc148jem_1","ItemGPS","CUP_LRTV"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",2],["ACE_morphine",1],["Chemlight_blue",1]]],
+	["<VEST ITEMS >> ",[]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
+kit_Voigt_driver = [
+	["<EQUIPEMENT >>  ","TRYK_SUITS_BR_F","","","",""],
+	["<PRIMARY WEAPON >>  ","","",["","","",""]],
+	["<LAUNCHER WEAPON >>  ","","",["","","",""]],
+	["<HANDGUN WEAPON >>  ","","",["","","",""]],
+	["<ASSIGNED ITEMS >>  ","ItemMap","ItemCompass","ACE_Altimeter","tf_anprc148jem_1","ItemGPS"],
+	["<UNIFORM ITEMS >> ",[["ACE_fieldDressing",2],["ACE_morphine",1]]],
+	["<VEST ITEMS >> ",[]],
+	["<BACKPACK ITEMS >> ",[]]
+];
+
 // боты радикалисты
 
 kit_germ_oppos_sl = [
